@@ -1,5 +1,6 @@
 package com.Forumhub.demo.domain.answer;
 
+import com.Forumhub.demo.domain.topic.Status;
 import com.Forumhub.demo.domain.topic.TopicRepository;
 import com.Forumhub.demo.infra.exception.TopicAlreadyAnsweredException;
 import com.Forumhub.demo.infra.exception.UnauthorizedModificationException;
