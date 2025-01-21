@@ -1,6 +1,7 @@
 package com.Forumhub.demo.controller;
 
 import com.Forumhub.demo.domain.topic.*;
+import com.Forumhub.demo.infra.exception.UnauthorizedModificationException;
 import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;
 import org.apache.catalina.User;
