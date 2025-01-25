@@ -4,13 +4,13 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.time.LocalDateTime;
 
-public record UserCreatedDAO(@JsonProperty("mensagem")
+public record AnswerCreatedDAO(@JsonProperty("mensagem")
                              String message,
-                             @JsonProperty("data_criacao")
+                               @JsonProperty("data_criacao")
                              LocalDateTime creationDate,
-                             @JsonProperty("topico")
+                               @JsonProperty("topico")
                              String topic,
-                             @JsonProperty("autor")
+                               @JsonProperty("autor")
                              String author) {
 
     public AnswerCreatedDAO(Answer answer) {
